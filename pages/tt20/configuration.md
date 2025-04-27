@@ -26,11 +26,22 @@ END NOTE
 All options below require `boolean` (`true`/`false`)\
 if you'll put something except `boolean` it will use default value
 
-| config key                  | default value | explanation             |
-|-----------------------------|---------------|-------------------------|
-| `enabled`                   | `true`        | Is TT20 enabled         |
-| `block-entity-acceleration` | `false`       | Ex. chest opening speed |
-|                             |               |                         |
+| Config key                      | Default value | Explanation                         |
+|---------------------------------|---------------|-------------------------------------|
+| `enabled`                       | `true`        | Is TT20 enabled                     |
+| `block-entity-acceleration`     | `false`       | Ex. chest opening speed             |
+| `block-breaking-acceleration`   | `true`        | Block breaking speed                |
+| `potion-effect-acceleration`    | `true`        | Effect time                         |
+| `fluid-acceleration`            | `true`        | Fluid speed                         |
+| `pickup-acceleration`           | `true`        | Item pickup time                    |
+| `eating-acceleration`           | `true`        | Food consuming speed                |
+| `portal-acceleration`           | `true`        | Nether portal tp time               |
+| `sleeping-acceleration`         | `true`        | In bed lay time                     |
+| `server-watchdog`               | `true`        | Disable server if dead for a minute |
+| `singleplayer-warning`          | `true`        | Warning in singleplayer             |
+| `time-acceleration`             | `true`        | Day/Night time speed                |
+| `random-tickspeed-acceleration` | `true`        | Ex. crop grow speed                 |
+| `automatic-updater`             | `true`        | Mod update checker                  |
 
 BEGIN NOTE
 **Note:** be careful with json structure, don't brake it!
