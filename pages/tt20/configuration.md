@@ -1,6 +1,6 @@
 # Configuration
 
-All about config file is here!
+All about config is here!
 
 ## Config file
 
@@ -23,8 +23,14 @@ END NOTE
 
 **Config explanation**
 
-1. `enabled` decides if mod is enabled (`true`/`false`)
-2. `block-entity-acceleration` 
+All options below require `boolean` (`true`/`false`)\
+if you'll put something except `boolean` it will use default value
+
+| config key                  | default value | explanation             |
+|-----------------------------|---------------|-------------------------|
+| `enabled`                   | `true`        | Is TT20 enabled         |
+| `block-entity-acceleration` | `false`       | Ex. chest opening speed |
+|                             |               |                         |
 
 BEGIN NOTE
 **Note:** be careful with json structure, don't brake it!
